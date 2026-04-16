@@ -1,0 +1,14 @@
+{
+  "B3B0F16": {"name": "Princess", "category": "character"},
+  "61DD07": {"name": "Castle", "category": "place"},
+  "85D950FC": {"name": "Dragon", "category": "character"},
+  "7164FD6": {"name": "Rabbit", "category": "character"},
+  "BDC4F36B": {"name": "Pencil", "category": "thing"},
+  "DEAF23B": {"name": "Telephone", "category": "thing"},
+  "8484A8A9": {"name": "Astronaut", "category": "character"},
+  "FD23596B": {"name": "Spaceship", "category": "place"},
+  "633ACD1D": {"name": "Moon", "category": "thing"},
+  "574648B5": {"name": "Village", "category": "place"},
+  "2DE3E86B": {"name": "Magic Wand", "category": "thing"},
+  "74F5A3FF": {"name": "School", "category": "place"}
+}

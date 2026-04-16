@@ -1,0 +1,200 @@
+{
+  "seeds": [
+    {
+      "id": "the_helper",
+      "theme": "asking for help is brave, not weak",
+      "moral": "everyone needs help sometimes, and asking for it is one of the bravest things you can do",
+      "gentle_problem": "the main character tries very hard to do something all by themselves, and it keeps going a little bit wrong in a funny way",
+      "reflection_hook": "Have you ever tried really hard to do something alone, and then someone helped you and it became so much easier?"
+    },
+    {
+      "id": "the_misunderstood",
+      "theme": "things are not always what they seem at first",
+      "moral": "getting to know someone before deciding how you feel about them changes everything",
+      "gentle_problem": "everyone in the story has the wrong idea about someone or something, and it causes a big funny misunderstanding",
+      "reflection_hook": "Has someone ever surprised you by being completely different from what you expected?"
+    },
+    {
+      "id": "the_brave_one",
+      "theme": "doing something even when you feel scared",
+      "moral": "being brave does not mean you are not scared \u2014 it means you do the thing anyway",
+      "gentle_problem": "there is something the character really wants to do, but a small worry keeps stopping them",
+      "reflection_hook": "What is something that felt really scary before you tried it, but turned out to be okay?"
+    },
+    {
+      "id": "the_lost_thing",
+      "theme": "it is okay when things change or go missing",
+      "moral": "sometimes losing something leads you to find something even more wonderful",
+      "gentle_problem": "something important goes missing or changes unexpectedly, and everyone feels a little sad about it",
+      "reflection_hook": "Have you ever lost something and then found something new that made you feel better?"
+    },
+    {
+      "id": "the_listener",
+      "theme": "really listening to others is a superpower",
+      "moral": "when you truly listen to someone, you can understand things words alone never say",
+      "gentle_problem": "everyone is talking but nobody is really listening, and it causes a funny mix-up",
+      "reflection_hook": "Who is someone in your life who always really listens to you? How does that feel?"
+    },
+    {
+      "id": "the_mistake",
+      "theme": "mistakes are how we learn and grow",
+      "moral": "a mistake is not the end of the story \u2014 it is just where the most interesting part begins",
+      "gentle_problem": "the character makes a well-meaning mistake that causes a small, funny chain of events",
+      "reflection_hook": "What is a mistake you made that turned out to teach you something really useful?"
+    },
+    {
+      "id": "the_sharer",
+      "theme": "sharing makes everything bigger and better",
+      "moral": "the best things in life \u2014 joy, ideas, kindness \u2014 only grow when you share them",
+      "gentle_problem": "someone is keeping something wonderful all to themselves without realising how much better it would be shared",
+      "reflection_hook": "What is something you shared with someone that made both of you happier than if you had kept it alone?"
+    },
+    {
+      "id": "the_patient_one",
+      "theme": "good things take time and rushing makes them worse",
+      "moral": "waiting carefully and doing things slowly is sometimes the fastest way to get somewhere wonderful",
+      "gentle_problem": "everyone is in a big hurry and keeps accidentally making things take even longer",
+      "reflection_hook": "Can you think of something you had to wait for that was completely worth it in the end?"
+    },
+    {
+      "id": "the_includer",
+      "theme": "noticing someone who is left out and including them",
+      "moral": "one small invitation can change someone's whole day \u2014 maybe even their whole life",
+      "gentle_problem": "someone on the edge of the group is quietly feeling invisible, and nobody has noticed yet",
+      "reflection_hook": "Have you ever felt left out? Or have you ever noticed someone else feeling that way and done something about it?"
+    },
+    {
+      "id": "the_different_one",
+      "theme": "being different is your greatest strength",
+      "moral": "the thing that makes you feel most unlike everyone else is usually the thing the world needs most",
+      "gentle_problem": "the character feels embarrassed about something that makes them different from everyone around them",
+      "reflection_hook": "What is something about you that is different from your friends? Do you think that difference is actually special?"
+    },
+    {
+      "id": "the_sorry_one",
+      "theme": "saying sorry and meaning it takes real courage",
+      "moral": "a true apology does not just say the words \u2014 it shows the other person you understand why they were hurt",
+      "gentle_problem": "the character did something that accidentally hurt a friend's feelings, and now there is a quiet awkwardness between them",
+      "reflection_hook": "Has saying sorry ever felt really hard? What made it difficult \u2014 and how did you feel after?"
+    },
+    {
+      "id": "the_curious_one",
+      "theme": "curiosity and asking why leads to wonderful discoveries",
+      "moral": "the best adventures always start with one small question: I wonder what would happen if...",
+      "gentle_problem": "the character keeps asking questions that nobody around them can answer, and it makes them feel a bit like a nuisance",
+      "reflection_hook": "What is something you have always been really curious about but never fully understood? What do you think the answer might be?"
+    },
+    {
+      "id": "the_fair_one",
+      "theme": "fairness means everyone gets what they need, not just the same thing",
+      "moral": "treating people fairly sometimes means treating them differently \u2014 and that is actually the kindest thing",
+      "gentle_problem": "two characters both want the same thing, and trying to split it exactly equally is causing more problems than it solves",
+      "reflection_hook": "Have you ever been in a situation where something felt unfair? What would have made it feel better?"
+    },
+    {
+      "id": "the_grateful_one",
+      "theme": "noticing and appreciating the small wonderful things around you",
+      "moral": "happiness is not about having more \u2014 it is about truly seeing what you already have",
+      "gentle_problem": "everyone is so busy looking for something big and exciting that they are completely missing something beautiful right in front of them",
+      "reflection_hook": "What is one small ordinary thing in your life that you would actually really miss if it disappeared tomorrow?"
+    },
+    {
+      "id": "the_truthful_one",
+      "theme": "telling the truth is hard but always worth it",
+      "moral": "a small uncomfortable truth is always kinder than a comfortable lie that grows bigger every day",
+      "gentle_problem": "the character told a tiny fib to avoid trouble, but now the fib has grown into a very complicated and funny situation",
+      "reflection_hook": "Has telling the truth ever felt really scary? What happened when you did it anyway?"
+    },
+    {
+      "id": "the_team",
+      "theme": "a group of very different people can do what none of them could alone",
+      "moral": "the best teams are not made of people who are all the same \u2014 they are made of people whose differences fit together perfectly",
+      "gentle_problem": "the characters are all trying to solve the same problem separately and getting nowhere, without realising they each have exactly the piece the others are missing",
+      "reflection_hook": "Think of a time you worked together with someone and made something better than either of you could have made alone. What was that like?"
+    },
+    {
+      "id": "the_underdog",
+      "theme": "the one everyone underestimates turns out to be the most capable of all",
+      "moral": "never measure someone by how they look or how small they seem \u2014 the quietest ones often carry the biggest hearts",
+      "gentle_problem": "the smallest or least noticed character is the only one who can solve the problem, but nobody thinks to ask them",
+      "reflection_hook": "Has anyone ever surprised you by being much better at something than you expected? Or has that ever happened to you?"
+    },
+    {
+      "id": "the_gift_and_the_responsibility",
+      "theme": "having something special means taking care of it and using it wisely",
+      "moral": "a gift is not just something you receive \u2014 it is something you are trusted with",
+      "gentle_problem": "the character has been given something wonderful but uses it carelessly at first, and something goes gently wrong as a result",
+      "reflection_hook": "What is something you own or can do that is really special? How do you take care of it?"
+    },
+    {
+      "id": "the_journey_changes_you",
+      "theme": "by the time you reach the end, you are not the same person who started",
+      "moral": "the real treasure of any adventure is not what you find at the end \u2014 it is who you become along the way",
+      "gentle_problem": "the character sets off wanting one specific thing, but somewhere in the middle of the journey they realise they no longer want it the same way",
+      "reflection_hook": "Has there ever been something you really wanted, and then when you got it, it felt different from what you imagined?"
+    },
+    {
+      "id": "the_pride_before_the_stumble",
+      "theme": "thinking you are the best at everything means you stop paying attention to others",
+      "moral": "the most skilled person in the room is not always the wisest \u2014 wisdom comes from knowing you still have things to learn",
+      "gentle_problem": "the character is genuinely very good at something and starts showing off a little too much, which causes them to miss something important",
+      "reflection_hook": "Have you ever been so sure you were right about something that you stopped listening \u2014 and then found out you were missing a piece of the picture?"
+    },
+    {
+      "id": "the_wish_granted",
+      "theme": "getting exactly what you wished for is not always what you expected",
+      "moral": "the best wishes are not for things \u2014 they are for the wisdom to know what truly matters",
+      "gentle_problem": "a wish or dream comes true in a very literal way that causes a funny, unexpected complication the character did not think about",
+      "reflection_hook": "If you had one wish that would definitely come true, what would you wish for \u2014 and have you thought about what it would really be like?"
+    },
+    {
+      "id": "the_long_way_round",
+      "theme": "the shortcut is never actually shorter",
+      "moral": "the path that looks hardest is often the one that leads somewhere truly worth going",
+      "gentle_problem": "the character chooses the easy or sneaky path to avoid effort, and ends up having to do much more work to untangle what went wrong",
+      "reflection_hook": "Have you ever tried to take a shortcut that ended up making things much more complicated? What happened?"
+    },
+    {
+      "id": "the_invisible_helper",
+      "theme": "the kindness that nobody sees is the most powerful kind",
+      "moral": "the most important good deeds are often the ones done quietly, without waiting for anyone to notice or say thank you",
+      "gentle_problem": "someone has been doing small acts of kindness for the whole community without anyone knowing, and when it suddenly stops everyone realises how much it meant",
+      "reflection_hook": "Have you ever done something kind without telling anyone? How did it feel to keep it a secret?"
+    },
+    {
+      "id": "the_two_friends_who_disagree",
+      "theme": "two people who care about each other can still see the world very differently",
+      "moral": "a true friendship does not require you to agree on everything \u2014 it requires you to keep talking until you understand each other",
+      "gentle_problem": "two close characters want completely opposite things and both feel completely right, causing a gentle falling-out that makes both of them miserable",
+      "reflection_hook": "Have you ever had a disagreement with a friend? How did you work it out \u2014 or what do you wish you had done differently?"
+    },
+    {
+      "id": "the_imagination_is_real",
+      "theme": "the things you imagine and create are just as real and important as the world around you",
+      "moral": "every real thing that exists was once just an idea in someone's head \u2014 imagination is where everything begins",
+      "gentle_problem": "the character creates or imagines something that others do not take seriously, but it turns out to be exactly what everyone needed",
+      "reflection_hook": "What is something you have imagined, drawn, built, or made up that you are really proud of? Where did the idea come from?"
+    },
+    {
+      "id": "the_one_who_came_back",
+      "theme": "home means something different after you have been away from it",
+      "moral": "you cannot truly appreciate where you belong until you have spent some time somewhere you do not",
+      "gentle_problem": "the character leaves somewhere familiar searching for something better, finds the adventure genuinely wonderful but also genuinely hard, and discovers something surprising on the way back",
+      "reflection_hook": "Have you ever been away from home and really missed something small and ordinary about it \u2014 something you never thought about before you left?"
+    },
+    {
+      "id": "the_secret_keeper",
+      "theme": "some secrets protect people, but others slowly grow into walls between them",
+      "moral": "a secret kept out of love is very different from a secret kept out of fear \u2014 and only you can tell which one you are holding",
+      "gentle_problem": "the character is keeping a secret they thought was kind to keep, but it has slowly started to make things more complicated for everyone around them",
+      "reflection_hook": "Have you ever kept a secret that felt heavy? What made it hard to carry?"
+    },
+    {
+      "id": "the_thing_that_seemed_useless",
+      "theme": "the thing everyone ignores or throws away turns out to be the most important thing of all",
+      "moral": "value is not always obvious \u2014 sometimes the most important things are the ones that have been overlooked the longest",
+      "gentle_problem": "something ordinary and unremarkable that everyone has been ignoring or discarding turns out to be exactly the missing piece needed to solve everything",
+      "reflection_hook": "Have you ever found out that something you thought was useless or boring was actually really special? What changed your mind?"
+    }
+  ]
+}

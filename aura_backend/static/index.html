@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aura Backend Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">Aura Story Mat</p>
+        <h1>Live Story Pipeline</h1>
+        <p class="sub">Scan cards and watch the backend state update in real time.</p>
+      </header>
+
+      <section class="panel status-panel">
+        <div>
+          <p class="label">Status</p>
+          <p id="statusText" class="value">idle</p>
+        </div>
+        <div>
+          <p class="label">Progress</p>
+          <p id="progressText" class="value">0 / 3</p>
+        </div>
+      </section>
+
+      <section class="panel phase-panel">
+        <div class="phase-head">
+          <p class="label">4-Phase Story Journey</p>
+          <p id="turnStatus" class="stream-meta">Turn 0 / 3</p>
+        </div>
+
+        <div class="phase-timeline" id="phaseTimeline">
+          <div class="phase-chip" data-phase="1">
+            <p class="phase-title">Phase 1</p>
+            <p class="phase-sub">Beginning</p>
+          </div>
+          <div class="phase-chip" data-phase="2">
+            <p class="phase-title">Phase 2</p>
+            <p class="phase-sub">Journey</p>
+          </div>
+          <div class="phase-chip" data-phase="3">
+            <p class="phase-title">Phase 3</p>
+            <p class="phase-sub">Challenge</p>
+          </div>
+          <div class="phase-chip" data-phase="4">
+            <p class="phase-title">Phase 4</p>
+            <p class="phase-sub">Ending</p>
+          </div>
+        </div>
+
+        <div id="turnInputWrap" class="turn-input-wrap hidden">
+          <p id="turnPromptText" class="turn-prompt">Waiting for child input...</p>
+          <div class="turn-listen-row">
+            <span class="mic-pulse" aria-hidden="true"></span>
+            <span class="turn-listen-text" id="turnListenText">Microphone is recording this turn</span>
+            <span id="turnCountdown" class="turn-countdown">30s</span>
+          </div>
+          
+          <!-- Browser microphone input -->
+          <div id="browserMicControls" class="browser-mic-controls">
+            <button id="startRecordBtn" type="button" class="record-btn">🎤 Start Recording</button>
+            <button id="stopRecordBtn" type="button" class="record-btn hidden">✓ Stop Recording</button>
+            <div id="audioVisualizer" class="audio-visualizer"></div>
+            <input id="manualTranscriptInput" type="text" placeholder="Or type your response..." class="manual-input">
+            <button id="submitManualBtn" type="button" class="submit-btn hidden">Submit Response</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <p class="label">Scanned Slots</p>
+        <div id="slots" class="slots"></div>
+      </section>
+
+      <section class="panel">
+        <p class="label">Generated Story</p>
+        <p id="storyText" class="story">Waiting for tags...</p>
+      </section>
+
+      <section class="panel">
+        <p class="label">Transcript Stream</p>
+        <p id="transcriptText" class="story transcript"></p>
+      </section>
+
+      <section class="panel">
+        <div class="stream-head">
+          <p class="label">Live Serial Feed</p>
+          <p id="serialMeta" class="stream-meta">Queue: 0</p>
+        </div>
+        <div id="serialFeed" class="stream-feed" aria-live="polite"></div>
+      </section>
+
+      <section class="panel controls">
+        <button id="resetBtn" type="button">Reset Round</button>
+        <div class="simulate-row">
+          <input id="simTag" placeholder="Simulate tag ID (e.g. B3B0F16)">
+          <button id="simulateBtn" type="button">Simulate Scan</button>
+        </div>
+      </section>
+
+      <p id="errorText" class="error"></p>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

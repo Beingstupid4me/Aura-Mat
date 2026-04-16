@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aura Story Mat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles_voice.css">
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="ambient-shape shape-a"></div>
+  <div class="ambient-shape shape-b"></div>
+
+  <main class="app-shell">
+    <header class="hero-card reveal">
+      <p class="eyebrow">Aura Story Mat</p>
+      <h1>Turn-Based Story Pipeline</h1>
+      <p id="headlineStatus" class="headline-status">Ready. Tap 3 cards to begin.</p>
+      <div id="stagePill" class="stage-pill">IDLE</div>
+    </header>
+
+    <section class="panel reveal delay-1">
+      <div class="panel-head">
+        <h2>Cards</h2>
+        <span id="cardsCount" class="panel-meta">0 / 3</span>
+      </div>
+      <div id="cardsRow" class="cards-row"></div>
+    </section>
+
+    <section class="panel reveal delay-2">
+      <div class="panel-head">
+        <h2>Phases</h2>
+        <span id="phaseMeta" class="panel-meta">Phase 0 / 4</span>
+      </div>
+      <ol class="phase-track">
+        <li class="phase-item" data-phase="1">1. Beginning</li>
+        <li class="phase-item" data-phase="2">2. Journey</li>
+        <li class="phase-item" data-phase="3">3. Challenge</li>
+        <li class="phase-item" data-phase="4">4. Ending</li>
+      </ol>
+      <div id="micWindow" class="mic-window hidden">
+        <p>Listening turn <span id="micTurn">1</span></p>
+        <p><span id="micCountdown">30</span>s remaining</p>
+      </div>
+    </section>
+
+    <section class="panel reveal delay-3">
+      <div class="panel-head">
+        <h2>Conversation</h2>
+      </div>
+      <div id="dialogueStream" class="dialogue-stream"></div>
+    </section>
+
+    <section class="panel reveal delay-4">
+      <div class="panel-head">
+        <h2>Pipeline Steps</h2>
+      </div>
+      <ul id="stepLog" class="step-log"></ul>
+    </section>
+
+    <section class="controls reveal delay-4">
+      <button id="resetBtn" class="btn btn-ghost">Reset</button>
+      <div class="simulate-group">
+        <input id="simTag" class="input-field" type="text" placeholder="Simulate tag id" autocomplete="off">
+        <button id="simulateBtn" class="btn btn-solid">Simulate</button>
+      </div>
+    </section>
+
+    <div id="errorBox" class="error-box hidden"></div>
+
+    <details class="debug reveal delay-4">
+      <summary>Debug</summary>
+      <div class="debug-content">
+        <p>Status: <span id="debugStatus">idle</span></p>
+        <p>Serial queue: <span id="debugQueue">0</span></p>
+        <div id="serialFeed" class="serial-feed"></div>
+      </div>
+    </details>
+  </main>
+
+  <script src="/static/app_voice.js"></script>
+</body>
+</html>

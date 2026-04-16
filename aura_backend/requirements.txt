@@ -1,0 +1,10 @@
+Flask==3.1.0
+Flask-SocketIO==5.4.1
+python-dotenv==1.0.1
+pyserial==3.5
+google-genai==1.30.0
+gTTS==2.5.4
+playsound==1.2.2
+pydub==0.25.1
+SpeechRecognition==3.16.0
+PyAudio==0.2.14

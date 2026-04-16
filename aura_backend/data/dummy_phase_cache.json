@@ -1,0 +1,18 @@
+{
+  "phase_1": [
+    "In {places}, {chars} discovered a curious clue that shimmered like stardust. They packed {things} and promised to solve the mystery together. {reflection_hook}",
+    "A soft breeze moved through {places} as {chars} noticed a strange little sign. With {things} in hand, they decided to begin the adventure. {reflection_hook}"
+  ],
+  "phase_2": [
+    "The child suggested '{child_answer}', so the friends tried that idea first. It made {things} surprisingly helpful, and they moved forward with smiles.",
+    "Using the child idea '{child_answer}', the team turned {things} into part of the journey. The path became clearer and much more fun."
+  ],
+  "phase_3": [
+    "Soon they faced a gentle challenge: {gentle_problem}. Their first plan did not work, so they paused, listened, and tried to understand each other better.",
+    "A silly problem appeared: {gentle_problem}. Even though the first attempt failed, they stayed kind and kept working together."
+  ],
+  "phase_4": [
+    "With the child's idea and teamwork, they solved the problem with warm hearts. Everyone learned that {moral}, and they ended the day feeling proud and calm.",
+    "They used kindness, patience, and the child's clever thought to make everything better. By the end, they truly understood that {moral}."
+  ]
+}
